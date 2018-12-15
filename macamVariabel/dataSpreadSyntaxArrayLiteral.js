@@ -42,5 +42,8 @@ console.log(satunya2);
 // with Object.assign() and spread syntax).
 var ty=[[1],[2],[3]];
 var tx=[...ty];
+/* aku gak patio dong*/
 tx.shift().shift();
+/* tur intine spdSyntax*/
+/* hanya berjalan di kedalaman1level */
 console.log(tx);
