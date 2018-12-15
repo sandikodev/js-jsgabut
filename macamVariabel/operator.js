@@ -1,9 +1,7 @@
-var arr =[1,2,3];
-var arr2=[...arr]; /* mostly like arr.slice() */
-var arr3=arr.slice(); /* have to tryit :) */
+const nomer = [1, 2, 3];
+const nobar = [].concat(nomer).concat(6, 5);
 
-arr2.push(4); /* yeahh seems like ahhh.. */
-console.log(arr2);
-console.log(arr3); /* deal with it 8| */
-
-
+nobar.push(4);
+console.log(nomer);
+console.log(nobar.sort());
+console.log(nomer === nobar);

@@ -47,3 +47,28 @@ tx.shift().shift();
 /* tur intine spdSyntax*/
 /* hanya berjalan di kedalaman1level */
 console.log(tx);
+
+
+// mostly spreadSyntax put everything :(
+var arr =[1,2,3];
+var arr2=[...arr]; /* mostly like arr.slice() */
+var arr3=arr.slice(); /* have to tryit :) */
+arr2.push(4); /* yeahh seems like ahhh.. */
+console.log(arr2);
+console.log(arr3); /* deal with it 8| */
+
+// concat too :(, yeah oh course :(
+var anue=[0,2,6];
+var anub=[3,4,5];
+anux=anue.concat(anub);
+anuz=[...anue,...anub];
+console.log(anux.sort());
+console.log(anuz.sort());
+
+// bahkan unshift :v
+var arr1 = [0, 1, 2];
+var arr2 = [3, 4, 5];
+var arrz = Array.prototype.unshift.apply(arr1, arr2);
+var arzz = [...arr2,...arr1];
+console.log(arrz);
+console.log(arzz);
