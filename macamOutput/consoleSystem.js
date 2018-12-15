@@ -1,0 +1,11 @@
+var namaSaya = "joko";
+var rumahSaya = "bantul";
+console.clear();
+console.log(namaSaya);
+console.debug(namaSaya);
+console.info([namaSaya, rumahSaya]);
+console.warn("ini pesan dari ibunya", namaSaya);
+console.error('kalok ini dari adeknya',namaSaya);
+console.exception("dari kedua diatas lebih bahaya adeknya karena lolikon");
+console.assert(false,"salah",rumahSaya);
+console.assert(true,"benar",namaSaya);

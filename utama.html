@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/utama.css">
+<body>
+    <!-- menggunakan onclick -->
+    <button onclick="klik1();">klik 1</button>
+
+    <!-- menggunakan selector id -->
+    <button id="klik2">klik 2</button>
+    <div id="masuk"></div>
+    <hr>
+    <hr>
+    <br>
+    <h2>macam macam eventlistener</h2>
+    <hr>
+    <button class="text-center"
+        onclick     ="getElementById('react').innerHTML=('I was clicked, I think')"
+        shiftKey    ="getElementById('react').innerHTML=('You're pressing shift, arent you?')"
+        onscroll    ="getElementById('react').innerHTML=('Don't Leave me!')"
+
+        onmouseout  ="getElementById('react').innerHTML=('Whatever, it is gone.. maybe')"
+        onmouseover ="getElementById('react').innerHTML=('Something Is Hovering Over Me.. again')">
+            klik saya
+    </button>
+    <div id="react">reaksi</div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/css/bootstrap.css"></script>
+    <!-- <script src="node_modules/bootstrap/dist/css/bootstrap.css.map"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.js.map"></script> -->
+    <script type="text/javascript" src="macamOutput/elementCustom.js"></script>
+
+</body>
+
+</html>
